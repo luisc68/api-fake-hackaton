@@ -1,0 +1,24 @@
+{
+  "name": "serverhack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisc68/api-fake-hackaton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisc68/api-fake-hackaton/issues"
+  },
+  "homepage": "https://github.com/luisc68/api-fake-hackaton#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
