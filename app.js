@@ -1,8 +1,10 @@
 const express = require('express');
 const fs = require('fs');
+const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
+app.use(cors());
 
 app.get('/api/player/:playerId/:field?', (req, res) => {
   const playerId = parseInt(req.params.playerId);
